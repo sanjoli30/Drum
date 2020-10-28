@@ -1,0 +1,47 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: url('./bg.jpg');
+    /* background-color: rgb(65, 125, 238); */
+}
+
+span {
+    font-size: x-small;
+}
+
+kbd {
+    display: block;
+    font-size: xx-large;
+    color: crimson;
+}
+
+.keys {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.key {
+    border: 2px solid black;
+    border-radius: 5%;
+    margin: 50vh 20px;
+    padding: 10px;
+    text-align: center;
+    font-weight: 700;
+    transition: all 0.07s;
+    width: 5%;
+    color: aqua;
+    text-transform: uppercase;
+    text-shadow: 0 0 .5rem black;
+    /* transform: scale(1); */
+}
+
+.playing {
+    transform: scale(1.25);
+    border-color: cyan;
+    border-radius: 5%;
+    box-shadow: 0 0 10px cyan;
+}
